@@ -1,37 +1,43 @@
 *{ 
-    padding: 0;
-    margin: 0;
+    padding:0;
+    margin:0;
     font-size:large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 .main{
+    padding: 30px;
     height: 100vh;
     width: 100vw;
     background:#f0d8ca;
     
 }
 .Header{
+    color: #f0d8ca;
     padding:5px;
     display: flex;
-    height:40px;
+    height:6%;
     flex-direction: row;
     justify-content: space-between;
 }
 .UL{
+    color: #f0d8ca;
     padding: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    width: 95%;
 }
 .HeadButton{
     padding:  5px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 10%;
+    justify-content:space-evenly;
+    width:20%;
 }
 a{
     text-decoration: none;
+}
+.button:hover{
+    transform: scale(1.2);
 }
